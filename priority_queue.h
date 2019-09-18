@@ -1,15 +1,15 @@
 #include <queue>
 
 template <typename T> 
-class templatePriorityQueue {
-	private:
-		std::priority_queue<T> storage;
-	public:
-		templatePriorityQueue();
-		~templatePriorityQueue();
-		bool empty() const;
-		const T& top() const;
-		int size();
-		void push(const T&);
-		void pop();	
+class TemplatePriorityQueue {
+  privatet
+    std::priority_queue<T> storage_;
+  public:
+    TemplatePriorityQueue();
+    ~TemplatePriorityQueue();
+    bool empty() const;
+    const T& top() const;
+    int size();
+    void push(const T&);
+    void pop();	
 };
